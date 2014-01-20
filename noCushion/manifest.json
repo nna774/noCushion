@@ -1,0 +1,18 @@
+{
+  "name": "NoCushionPage",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "鬱陶しいクッションページをそのまま通過したい拡張",
+  "content_scripts": [
+    {
+      "matches": ["http://2ch-c.net/*"
+		, "http://news-choice.net/*"
+		, "http://besttrendnews.net/*"
+		, "http://uhouho2ch.com/*"
+		, "http://newmofu.doorblog.jp/*"
+		],
+      "js": ["jquery.min.js","script.js"],
+	  "run_at": "document_start"
+    }
+  ]
+}

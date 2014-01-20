@@ -1,0 +1,5 @@
+2ch-c.net,$('#pickup').attr("href")
+news-choice.net,$(".pickuptitle > a").attr("href")
+besttrendnews.net,$(".select > a").attr("href")
+uhouho2ch.com,$(".pickup > a").attr("href")
+newmofu.doorblog.jp,$(".title_link > a").attr("href")
